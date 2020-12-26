@@ -1,0 +1,67 @@
+/* #overall {
+    display: flex;
+}
+
+#right{
+    display: flex;
+}
+
+#left{
+    display: flex;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* font-size: 30px; */
+}
+
+#left, #right{
+    /* border: solid 2px #000; */
+    width: 50vw;
+    height: 100vh;
+    margin: 6px;
+}
+
+#left {
+    line-height: 200%;
+}
+
+.title {
+    text-align: center;
+    
+}
+
+#economy, #chat {
+    height: 50vh;
+    margin: 3px;
+}
+
+#economy {
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: 14px;
+}
+
+#elem1, #elem2 {
+    flex-grow: 5;
+    /* border: solid 1px #000; */
+}
+
+#elem2 {
+    margin-left: 3px;
+}
+
+#chat {
+    /* border-top: solid 2px #000; */
+}
+
+/* #result {
+    background-color: blue;
+} */
+
+/* #wrapper{
+    font-size: 24px;
+} */
