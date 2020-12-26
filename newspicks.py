@@ -11,5 +11,14 @@ newspicks= []
 for e in elems:
     newspicks.append(e.getText())
 
-for b in newspicks:
+for b in newspicks[0:6]:
     print(b)
+
+f = open('newspicks.txt', 'a')
+f.truncate(0)
+f.close()
+
+for s in newspicks[6:12]:
+    f = open('newspicks.txt', 'a')
+    f.write('{}<br>'.format(str(s)))
+    f.close()

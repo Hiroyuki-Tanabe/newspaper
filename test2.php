@@ -173,6 +173,8 @@ fclose($file);
                     echo '<br>';
                     } ?>
 
+                <div id="more"></div>
+
                 <button id="button">>>もっと見る</button>
 
             </div>
@@ -190,6 +192,10 @@ fclose($file);
                         // echo nl2br("/n");
                         echo '<br>';
                         } ?>
+
+                <div id="more2"></div>
+
+                <button id="button2">>>もっと見る</button>
 
             </div>
 
